@@ -1,12 +1,14 @@
-# EmployeeReactDirectory
+# Template Engine - Employee Summary
 
-* This is an employee directory app with React. As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
-
-* An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+* As a manager
+I want to generate a webpage that displays my team's basic info
+so that I have quick access to emails and GitHub profiles
 
 ## Usage / Directions
-* Click the link to find the Employee https://brc9087.github.io/myapp/
---
+* Click the link to organize myteam! ==> 
+
+<br>
+
 ## Sorting Table by Name
 * ![](./public/images/NameSorted.JPG )
 
@@ -25,15 +27,13 @@
 
 ## Tools Used / Dependancies
 --
-* React
-* API
-* state
-* React hooks
-* The Context API
+* inquirer
+* node.js
 * JS
+* testing
 * Github
-* images
+
 
 ## Links
 * https://brc9087.github.io/myapp/
-* https://github.com/brc9087/EmployeeReactDirectory
+* Repo: https://github.com/brc9087/TemplateEngineEmployee
