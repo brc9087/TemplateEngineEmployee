@@ -58,13 +58,25 @@ const addEmployee = () => {
             name: "role",
             type: "list",
             message: "Please select your company role",
-            choice: ["Engineer", "Intern", "Manager"]
+            choices: ["Engineer", "Intern", "Manager"]
         },
         {
             name: "github",
             type: "input",
             message: "Please enter your Github username",
+            when: (answer) => answer.role === "Engineer"
+        },
+        {
+            name: "school",
+            type: "input",
+            message: "Please enter name of your school / bootcamp",
             when: (answer) => answer.role === "Intern"
+        },
+        {
+            name: "officeNumber",
+            type: "input",
+            message: "Please enter your office number",
+            when: (answer) => answer.role === "Manager"
         },
     ]).then((answer) => {
         let choice = answer.role;
@@ -121,7 +133,7 @@ const addAnother = () => {
             name: "newEmployee",
             type: "list",
             message: "Would you like to add another employee?",
-            choice: ["YES", "NO"]
+            choices: ["YES", "NO"]
         },
     ]).then((answer) => {
         if (answer.newEmployee === "YES") {
