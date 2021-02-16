@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+
+.jumbotron {
+    background-color: navy;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-header {
+    background-color: orangered;
+    color: white
+}
+
+.card-body {
+    background-color:navy;
+}
+
+.list-group-item {
+    background-color: beige;
+    color: black
+}
