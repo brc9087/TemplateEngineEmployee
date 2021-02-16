@@ -9,8 +9,8 @@ so that I have quick access to emails and GitHub profiles
 
 <br>
 
-## Sorting Table by Name
-* ![](./public/images/NameSorted.JPG )
+## MY TEAM PAGE
+* ![](./images/teampage.PNG )
 
 <br>
 
