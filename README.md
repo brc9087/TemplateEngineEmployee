@@ -5,7 +5,9 @@ I want to generate a webpage that displays my team's basic info
 so that I have quick access to emails and GitHub profiles
 
 ## Usage / Directions
-* Click the link to organize myteam! ==> 
+1. type <npm install> at root of terminal to install packages
+2. type <npm run test> to run test
+3. type <node app> to start up the app! 
 
 <br>
 
@@ -14,14 +16,8 @@ so that I have quick access to emails and GitHub profiles
 
 <br>
 
-## Home Page 
-* ![](./public/images/homePageEmployee.JPG )
-
-<br>
-    
-    
-## Search for Employee
-*  ![](./public/images/SearchOption.JPG )
+## VIDEO WALKTHROUGH LINK 
+* link: https://drive.google.com/file/d/1FgvtrMFu34cEi44KOVnHlkMUX7u52VQw/view
 
 <br>
 
@@ -32,8 +28,9 @@ so that I have quick access to emails and GitHub profiles
 * JS
 * testing
 * Github
+* screencastify
 
 
 ## Links
-* https://brc9087.github.io/myapp/
+* Video Walkthrough: https://drive.google.com/file/d/1FgvtrMFu34cEi44KOVnHlkMUX7u52VQw/view
 * Repo: https://github.com/brc9087/TemplateEngineEmployee
